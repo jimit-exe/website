@@ -2,7 +2,7 @@ pipeline {
     agent any
 
      environment{
-       registryCredential = 'ecr:ap-northeast-1:capstoneproject'
+       registryCredential = 'ecr:ap-northeast-1:AKIA2VF2CCJZ2RTI3OY3'
        appRegistry = "732682130035.dkr.ecr.ap-northeast-1.amazonaws.com/capstoneproject"
        capstoneRegistry = "https://732682130035.dkr.ecr.ap-northeast-1.amazonaws.com"
        cluster = "Capstone"
