@@ -47,7 +47,7 @@ pipeline {
                 branch "master"
          }
          steps{
-            withAWS(credentials: 'Capstone', region: 'ap-northeast-1'){
+            withAWS(credentials: 'AKIA2VF2CCJZ2RTI3OY3', region: 'ap-northeast-1'){
                 sh 'aws ecs update-service --cluster ${cluster} --service ${service} --force-new-deployment'
             }
          }
